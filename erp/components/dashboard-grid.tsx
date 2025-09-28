@@ -293,11 +293,12 @@ export function DashboardGrid() {
               <div className="bg-rose-50 p-2 rounded-lg">
                 <Calendar className="h-5 w-5 text-rose-600" />
               </div>
-              Upcoming Exams
+              Upcoming Events
             </CardTitle>
           </CardHeader>
           <CardContent className="p-6 space-y-4">
             <div className="space-y-3">
+              
               <div className="flex justify-between items-center p-3 bg-red-50 rounded-lg border border-red-100">
                 <span className="font-medium text-slate-800">TedTalk-2025</span>
                 <Badge className="bg-red-600 text-white">Dec 15</Badge>
